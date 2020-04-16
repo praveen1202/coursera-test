@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(121,9,97,1) 30%, rgba(0,212,255,1) 100%);
+}
+.topic{
+  font-family: "Trade Winds",sans-serif;
+  text-align: center;
+  font-weight: bolder;
+  color: white;
+  
+  
+}
+.row{
+  width:100%;
+}
+.container{
+position: relative;
+padding: 20px 50px 20px 20px;
+}
+.title{
+  position: absolute;
+  border:1px solid;
+  top:0px;
+  right:0px;
+  font-weight: bold;
+  font-size: large;
+  font-family: lobster,monospace;
+  padding:5px 70px 5px 70px;
+  
+}
+.padding{
+  background: rgb(247,247,247);
+background: linear-gradient(35deg, rgba(247,247,247,1) 0%, rgba(121,9,97,1) 30%, rgba(0,212,255,1) 100%);
+  position: relative;
+  border: 1px solid;
+  padding: 35px 10px 20px 10px;
+}
+section{
+  font-family: Simonetta,sans-serif;
+  font-size: large;
+  font-weight: bolder;
+}
+@media (min-width: 992px) {
+ .laptop{
+   float: left;
+  width: 33.33%;
+ }
+  }
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet-1{
+    float: left;
+    width: 50%;
+  }
+  .tablet-2{
+    float: left;
+    width:100%;
+  }
+}
+@media (max-width:767px){
+.phone{
+  float: left;
+  width:100%;
+}
+}
+
+
+
+
+
+
+
+
+
