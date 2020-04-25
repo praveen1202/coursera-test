@@ -58,7 +58,7 @@
     border:2px solid;
     background-color:#6a5c5c8a;
   }
-  @media (max-width: 575.98px){
+  @media (max-width: 767px){
     .nav-list a{
       line-height: normal;
       border-color:rgba(184, 169, 169, 0.795)
