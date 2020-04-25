@@ -22,7 +22,7 @@
     color: white;
   }
   #nav-list a span:hover {
-    background: #E7E7E7;
+    color: rgb(126, 117, 117);
   }
   #button{
     margin-top:50px;
